@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>走秀网</title>
+		<link rel="stylesheet" type="text/css" href="reset.css"/>
+		<script src="libs/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/angular-route.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/angular-css.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			body{
+				position: relative;
+				width: 100%;
+			}
+			.indexNav{
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 3rem;
+				background-color: #eeeeee;
+			}
+			.indexNav ul li{
+				float: left;
+				width: 20%;
+				text-align: center;
+				line-height: 3rem;
+			}
+		</style>
+		
+	</head>
+	
+	<body ng-app="myApp">
+		<!-- AngularJS中提供了ng-view指令，为了展示路由切换的页面 -->
+		<div ng-view class="main"></div>
+		<nav class="indexNav">
+			<ul>
+				<li><a href="#/">首页</a></li>
+				<li><a href="#/find">发现</a></li>
+				<li><a href="#/classify">分类</a></li>
+				<li><a href="#/bag">购物袋</a></li>
+				<li><a href="#/mine">我的</a></li>
+			</ul>
+		</nav>
+	</body>
+	<script src="route.js" type="text/javascript" charset="utf-8"></script>
+	<script src="classify/js/classify.js" type="text/javascript" charset="utf-8"></script>
+	<script src="home/js/home.js" type="text/javascript" charset="utf-8"></script>
+	<script src="mine/js/mine.js" type="text/javascript" charset="utf-8"></script>
+	<script src="find/js/find.js" type="text/javascript" charset="utf-8"></script>
+	<script src="bag/js/bag.js" type="text/javascript" charset="utf-8"></script>
+</html>
