@@ -1,0 +1,127 @@
+{
+	"data":[
+		{
+			"img":"http://8.xiustatic.com/H5/2016/10/25/homepage/1.jpg",
+			"name":"Burberry",
+			"dis": "冬季新品 灯笼袖新设计 限时9折起"
+		},
+		{
+			"img":"http://6.xiustatic.com/H5/2016/10/25/homepage/2.jpg",
+			"name":"Canada Goose",
+			"dis": "加拿大知名羽绒服 限时9折"
+		},
+		{
+			"img":"http://7.xiustatic.com/H5/2016/10/25/homepage/3.jpg",
+			"name":"Michael Michael Kors",
+			"dis": "既百搭又时尚 我只服它"
+		},
+		{
+			"img":"http://6.xiustatic.com/H5/2016/10/25/homepage/8.jpg",
+			"name":"Reiss",
+			"dis": "新品尝鲜 限时8.5折"
+		},
+		{
+			"img":"http://7.xiustatic.com/H5/2016/10/25/4f1e84fb-a7aa-4b5a-9881-e3309871b451.jpg",
+			"name":"Moncler",
+			"dis": "明星热棒的御寒圣品 限时8.5折起"
+		},
+		{
+			"img":"http://8.xiustatic.com/H5/2016/10/25/homepage/4.jpg",
+			"name":"Ann taylor",
+			"dis": "美国时尚女装 一件9折 两件8.5折"
+		}
+	],
+	"data2":[
+		{
+			"img":"http://6.xiustatic.com/upload/goods20160804/11642432/116424320001/g1_315_420.jpg",
+			"name":"女士羊毛开衫",
+			"price":  3213,
+			"oldPrice":  3900
+		},
+		{
+			"img":"http://7.xiustatic.com/upload/goods20160830/11649187/116491870001/g1_315_420.jpg",
+			"name":"女士经典V领",
+			"price":  2000,
+			"oldPrice":  4000
+		},
+		{
+			"img":"http://6.xiustatic.com/upload/goods20160826/11648244/116482440001/g1_315_420.jpg",
+			"name":"女士毛开衫",
+			"price":   2565,
+			"oldPrice":  4800
+		}
+	
+	],
+	"data3":[
+		{
+			"img":"http://image4.zoshow.com/upload/goods20161011/11659597/116595970001/g1_315_420.jpg?0",
+			"eName": "A.P.C",
+			"cName":"女士图案针织衫",
+			"price":   3610,
+			"oldPrice":  3900
+		},
+		{
+			"img":"http://image4.zoshow.com/upload/goods20161011/11659911/116599110001/g1_315_420.jpg?0",
+			"eName": "Weekend MaxMara",
+			"cName":"女士Weekend羊驼条纹针织衫",
+			"price":   1800,
+			"oldPrice":  3300
+		},
+		{
+			"img":"http://image3.zoshow.com/upload/goods20160302/11583555/115835550001/g1_315_420.jpg?0",
+			"eName": "Theonne",
+			"cName":"女士嫩粉红色山羊绒针织外套",
+			"price":   859,
+			"oldPrice":  2500
+		},
+		{
+			"img":"http://image2.zoshow.com/upload/goods20160907/11652049/116520490001/g1_315_420.jpg?0",
+			"eName": "Weekend MaxMara",
+			"cName":"女士Weekend羊驼条纹针织衫",
+			"price":   1800,
+			"oldPrice":  3300
+		},
+		{
+			"img":"http://image4.zoshow.com/upload/goods20161011/11659911/116599110001/g1_315_420.jpg?0",
+			"eName": "MAX&Co.",
+			"cName":"女士镶珠针织衫",
+			"price":   1683,
+			"oldPrice":  3150
+		},
+		{
+			"img":"http://image5.zoshow.com/upload/goods20160927/11657323/116573230001/g1_315_420.jpg?0",
+			"eName": "C/Meo Collective",
+			"cName":"女士条纹拼色针织衫",
+			"price":   780,
+			"oldPrice":  890
+		},
+		{
+			"img":"http://image5.zoshow.com/upload/goods20160927/11657323/116573230001/g1_315_420.jpg?0",
+			"eName": "C/Meo Collective",
+			"cName":"女士条纹拼色针织衫",
+			"price":   780,
+			"oldPrice":  890
+		},
+		{
+			"img":"http://image4.zoshow.com/upload/goods20161011/11659911/116599110001/g1_315_420.jpg?0",
+			"eName": "Weekend MaxMara",
+			"cName":"女士Weekend羊驼条纹针织衫",
+			"price":   1800,
+			"oldPrice":  3300
+		},
+		{
+			"img":"http://image3.zoshow.com/upload/goods20160302/11583555/115835550001/g1_315_420.jpg?0",
+			"eName": "Theonne",
+			"cName":"女士嫩粉红色山羊绒针织外套",
+			"price":   859,
+			"oldPrice":  2500
+		},
+		{
+			"img":"http://image2.zoshow.com/upload/goods20160907/11652049/116520490001/g1_315_420.jpg?0",
+			"eName": "Weekend MaxMara",
+			"cName":"女士Weekend羊驼条纹针织衫",
+			"price":   1800,
+			"oldPrice":  3300
+		}
+	]
+}

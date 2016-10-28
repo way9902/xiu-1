@@ -1,0 +1,98 @@
+/*对页脚AngularJS框架index的页脚进行样式重设置*/
+.indexNav ul li:first-child{
+	background: url(../../imgs/home.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:first-child a{
+	color: #8E9590;
+}
+.indexNav ul li:nth-child(5){
+	background: url(../../imgs/mine-2.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:nth-child(5) a{
+	color: black;
+}
+header{
+	padding: .5rem ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #CBCBCD;
+}
+header span{
+	/*font-size: 0;*/
+	text-align: center;
+}
+header span img{
+	width: 2.5rem;
+	margin-top: .5rem;
+}
+header span:nth-child(2){
+	flex-grow: 1;
+	font-size: 1.3rem;
+}
+div.list ul{
+	background-color: #fff;	
+	display: flex;
+}
+div.list ul li{
+	flex-grow: 1;
+	text-align: center;
+	padding: .8rem;
+	font-size: .8rem;
+}
+div.list ul li.item{
+	border-bottom: 2px solid #D2041F;
+	color: #D2041F;
+}
+main{
+	margin-top: 2px;
+	background-color: #fff;
+}
+main .collNav li{
+	display: flex;
+}
+main .collNav li section:nth-child(1){
+	width: 30%;
+	padding: 1rem 0 1rem 1.2rem;
+}
+main .collNav li section:nth-child(1) img{
+	width: 80%;
+}
+main .collNav li section:nth-child(2){
+	width: 70%;
+	padding: 1rem;
+	padding-bottom: 0;
+	position: relative;
+}
+main .collNav li section:nth-child(2) p{
+	width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: .8rem;
+	line-height: 1.5rem;
+	text-overflow: ellipsis;
+	
+}
+main .collNav li section:nth-child(2) p.price{
+	position: absolute;
+	bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

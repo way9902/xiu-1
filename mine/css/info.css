@@ -1,0 +1,76 @@
+/*对页脚AngularJS框架index的页脚进行样式重设置*/
+.indexNav ul li:first-child{
+	background: url(../../imgs/home.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:first-child a{
+	color: #8E9590;
+}
+.indexNav ul li:nth-child(5){
+	background: url(../../imgs/mine-2.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:nth-child(5) a{
+	color: black;
+}
+
+
+header{
+	padding: .5rem ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #CBCBCD;
+}
+header span img{
+	width: 2.5rem;
+}
+header span:nth-child(2){
+	flex-grow: 1;
+	text-align: center;
+}
+main{
+	margin-top: 1rem;
+}
+main ul{
+	
+}
+main ul li{
+	box-sizing: border-box;
+	width: 100%;
+	padding: .5rem;
+	height: 6rem;
+	background-color: #fff;
+	margin-bottom: 2px;
+}
+main ul li img{
+	width: 20%;
+	float: left;
+	margin-right: 1rem;
+}
+main ul li p{
+	color: #6F6F6F;
+	line-height: 2.5rem;
+}
+main ul li h3{
+	color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

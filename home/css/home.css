@@ -1,3 +1,214 @@
-body{
-	color: green;
+
+header{
+	width: 100%;
+	height: 6rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	z-index: 99;
 }
+	header .homeTop{
+		width: 100%;
+		height: 2.5rem;
+	}
+	header .homeTop span{
+		display: inline-block;
+		width: 11.5%;
+	}
+	header .homeTop img{
+		width: 1.7rem;
+	}
+	header .homeTop span:first-child img{
+		position: absolute;
+		top: .7rem;
+		left: 2%;
+	}
+	header .homeTop span:last-child img{
+		position: absolute;
+		top: .7rem;
+		right: 2%;
+	}
+	header .homeTop input{
+		width: 70%;
+		height: 1.7rem;
+		border: none;
+		outline: none;
+		background-color: #E9E9EB;
+		border-radius: .3rem;
+		background: url(../imgs/search.png) no-repeat #E9E9EB;
+		background-size: 1.5rem;
+		background-position: 2rem;
+		padding-left: 1rem;
+		text-align: center;
+		position: absolute;
+		top: .7rem;
+	}
+
+header .homeBottom{
+		width: 100%;
+		height: 3.5rem;
+	}		
+	header .homeBottom .wrap li{
+		float: left;
+		width: 14.2%;
+		text-align: center;
+		line-height: 3.5rem;
+	}	
+	header .homeBottom .wrap li a{
+		color: #A8A8A9;
+	}
+	header .homeBottom .wrap li img{
+		width: 1rem;
+	}
+	header .homeBottom .wrap .aaaa a{
+		display: inline-block;
+		width: 3.35rem;
+		height: 3.35rem;
+		color: #D71D35;				
+		border-bottom: 2px solid #D71D35;
+	}
+	
+.container{
+	margin-top: 6rem;	
+	margin-bottom: 4rem;			
+}
+.container .banner .swiper-container .swiper-wrapper img{
+	width: 100%;
+	height: 18rem;
+}
+.container .banner .swiper-container .swiper-pagination span{
+	background-color: #D51C35;
+}
+
+.container nav{
+	width: 100%;
+	height: 6rem;
+	background-color: white;
+}
+.container nav .wrapper li{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.container nav .wrapper li img{
+	width: 3rem;
+	margin-top: .5rem;
+}
+.container nav .wrapper li a{
+	color:#8E9590;
+	font-size: .9rem;
+}
+.container main{
+	width: 100%;
+	margin-top: .8rem;	
+}
+.container main .mainTop{
+	width: 100%;
+	height: 30rem;
+	background-color: white;
+}
+.container main .mainTop>p{
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1.2rem;
+}
+.container main .mainTop>p span:first-child{
+	display: inline-block;
+	height: .05rem;
+	width: 3rem;
+	background-color: #D8D8D8;
+	margin:0 .5rem .3rem 0;
+}
+.container main .mainTop>p span:last-child{
+	display: inline-block;
+	height: .05rem;
+	width: 3rem;
+	background-color: #D8D8D8;
+	margin:0 0 .3rem .5rem;
+}
+
+
+.container main .mainTop .newShop{
+	width: 100%;
+	height: 14rem;
+	margin-bottom: .5rem;
+	text-align: center;
+	color: #C4C3C1;
+}
+.container main .mainTop .newShop .left{
+	width: 49%;
+	height: 14rem;
+	float: left;
+	background: url(../imgs/mainTop1.jpg) no-repeat;
+	background-size: 100%;
+}
+.container main .mainTop .newShop .right{
+	width: 49%;
+	height: 14rem;
+	float: right;
+	background: url(../imgs/mainTop2.jpg) no-repeat;
+	background-size: 100%;
+}	
+.container main .mainTop .pinpai{
+	float: left;
+	width: 100%;
+	height: 12.5rem;
+	background: url(../imgs/mainTop3.jpg) no-repeat;
+	background-size: 100%;
+	text-align: center;
+	color: #C4C3C1;
+}
+.container main .mainTop .newShop p:first-child,.container main .mainTop .pinpai p:first-child{
+	margin-top: 9.5rem;
+}
+.container main .mainTop .newShop p:last-child,.container main .mainTop .pinpai p:last-child{
+	font-size: .7rem;
+}
+.container main .mainBot{
+		margin-top: .8rem;
+		width: 100%;
+		height: 21rem;
+		background-color: white;
+		text-align: center;
+	}
+.container main .mainBot>p{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 1.2rem;
+}
+.container main .mainBot>p span:first-child{
+	display: inline-block;
+	height: .1rem;
+	width: 3rem;
+	background-color: #D8D8D8;
+	margin:0 .5rem .3rem 0;
+}
+.container main .mainBot>p span:last-child{
+	display: inline-block;
+	height: .1rem;
+	width: 3rem;
+	background-color: #D8D8D8;
+	margin:0 0 .3rem .5rem;
+}
+.container main .mainBot>div{
+	width: 100%;
+	float: left;
+	height: 18rem;
+	background: url(../imgs/mainBot1.jpg) no-repeat;
+	background-size:100%;
+}
+
+.container main .mainBot>div p:first-child{
+	margin-top: 14rem;	
+}
+.container main .mainBot>div .pp{
+		width: 60%;
+		height: 4rem;
+		background-color: white;
+		margin-left: 20%;
+		line-height: 2rem;
+	}

@@ -1,3 +1,106 @@
-body{
-	color: red;
+/*对页脚AngularJS框架index的页脚进行样式重设置*/
+.indexNav ul li:first-child{
+	background: url(../../imgs/home.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
 }
+.indexNav ul li:first-child a{
+	color: #8E9590;
+}
+.indexNav ul li:nth-child(3){
+	background: url(../../imgs/classify-2.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:nth-child(3) a{
+	color: black;
+}
+
+
+header{
+	width: 100%;
+	height: 3.5rem;
+	background-color: white;
+	text-align: center;
+	line-height: 3.5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+header .headerTitle{	
+	width: 100%;
+	height: 3.5rem;
+	border-bottom: 1px solid #C4C3C1;
+}
+header .headerTitle a{
+	margin-right: 10%;
+	font-size: 1.1rem;
+}
+header .headerTitle a:first-child{
+	display: inline-block;
+	color: #D2041F;
+	height: 3.4rem;
+	border-bottom: .15rem solid #D2041F;
+}
+
+
+main{
+	width: 100%;
+	position: relative;
+	top: 3.5rem;
+	height: 6.5rem;
+	overflow: hidden;
+	background: #fff;
+}
+main .main-top{
+	padding: 1rem;
+	overflow: hidden;
+	width: 200%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+main .main-top section{
+	width: 15%;
+	float:left;
+}
+main .main-top section img{
+		width: 80%;
+}
+div.list{
+	padding-top: 4rem;
+	background: #fff;
+	width: 100%;
+	clear: both;
+	margin-bottom: 4rem;
+}
+div.list section{
+	width: 100%;
+}
+div.list section img{
+	width: 100%;
+	/*height: 9.3rem;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

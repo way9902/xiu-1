@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>分类</title>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="headerTitle">
+				<a href="#/classify">分类</a>
+				<a href="">针织衫</a>
+			</div>
+			<div class="headerNav">
+				<ul>
+					<li><a href="">推荐</a></li>
+					<li><a href="">价格</a></li>
+					<li><a href="">新上架</a></li>
+					<li><a href="">筛选</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="kong"></div>
+		<main>
+			<div class="mainUl">
+				<ul>
+					<li ng-repeat="(key, value) in data">
+						<a href=""><img ng-src="{{ value.img }}"/></a>
+						<p>{{ value.eName }}</p>
+						<p>{{ value.cName }}</p>
+						<p><span>¥{{ value.price }}</span><span>¥{{ value.oldPrice }}</span></p>
+					</li>
+					<!--<li>
+						<a href=""><img src="classify/imgs/zhenhzi2.jpg"/></a>
+						<p>Andersson Bell</p>
+						<p>Bird Zip女款象牙色针织衫</p>
+						<p><span>¥736</span><span>¥1842</span></p>
+					</li>
+					<li>
+						<a href=""><img src="classify/imgs/zhenhzi3.jpg"/></a>
+						<p>Shezglobal</p>
+						<p>女士新款针织镂空套头毛衣</p>
+						<p><span>¥199</span><span>¥599</span></p>
+					</li>
+					<li>
+						<a href=""><img src="classify/imgs/zhenhzi4.jpg"/></a>
+						<p>Fagire</p>
+						<p>女士流苏百搭针织衫</p>
+						<p><span>¥344</span><span>¥1275</span></p>
+					</li>-->
+				</ul>
+			</div>
+		</main>
+	</body>
+</html>

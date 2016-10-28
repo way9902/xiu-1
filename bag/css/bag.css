@@ -1,3 +1,133 @@
-body{
-	color: hotpink;
+/*对页脚AngularJS框架index的页脚进行样式重设置*/
+.indexNav ul li:first-child{
+	background: url(../../imgs/home.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:first-child a{
+	color: #8E9590;
+}
+.indexNav ul li:nth-child(4){
+	background: url(../../imgs/shower-2.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:nth-child(4) a{
+	color: black;
+}
+
+
+header{
+	padding: .5rem;
+	color: #383636;
+}
+header div{
+	text-align: center;
+}
+header div span{
+	color: black;
+	font-size: 1.5rem;
+}
+header div p{
+	font-size: 1rem;
+	float: right;
+	margin-top: .5rem;
+}
+main{
+	width: 100%;
+	margin-top: .2rem;
+}
+main ul li{
+	background-color: #fff;
+	display: flex;
+	margin-bottom: 3px;
+	box-sizing: border-box;
+	align-items: center;
+	width: 100%;
+	padding: 1rem;
+}
+main ul li section:nth-child(1){
+	flex-grow: 1;
+}
+main ul li section:nth-child(2){
+	flex-grow: 2;
+}
+main ul li section:nth-child(3){
+	flex-grow: 5;
+}
+main ul li section:nth-child(1) img{
+	width: 2rem;
+}
+main ul li section:nth-child(2) img{
+	width: 6rem;
+}
+main ul li section:nth-child(3) p{
+	color: #B7B7B7;
+}
+main ul li section:nth-child(3) p:nth-child(1){
+	color: black;
+	line-height: 1.2rem;
+}
+main ul li section:nth-child(3) p:nth-child(2){
+	color: black;
+	line-height: 1.2rem;
+}
+main ul li section:nth-child(3) p:nth-child(n+3){
+	line-height: 1.5rem;
+	font-size: .8rem;
+}
+main ul li section:nth-child(3) p:last-child{
+	border: 1px solid #848A8D;
+	display: inline-block;
+	color: #383636;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+main ul li section:nth-child(3) p:last-child span{
+	padding: 0 .5rem;
+}
+main ul li section:nth-child(3) p:last-child span:nth-child(2){
+	display: inline-block;
+	border-left: 1px solid #848A8D;
+	border-right: 1px solid #848A8D;
+	padding: .1rem 1rem;
+	box-sizing: border-box;
+}
+section.calP{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 4rem;
+	display: flex;
+	background-color: #fff;
+	/*align-items: center;*/
+}
+section.calP span{
+	padding: .5rem 0;
+	text-align: center;
+	line-height: 2.5rem;
+}
+section.calP span:nth-child(1){
+	width: 10%;
+	position: relative;
+}
+section.calP span:nth-child(2){
+	width: 10%;
+}
+section.calP span:nth-child(3){
+	width: 35%;	
+	font-size: .8rem;
+	/*line-height: 2.5rem;*/
+}
+section.calP span:nth-child(4){
+	width: 40%;
+	background-color: #D2041F;
+	color: #fff;
+	margin-left: 5%;
+}
+section.calP span:nth-child(1) img{
+	width: 2rem;
+	position: absolute;
+	top: .7rem;
+	left: .2rem;
 }

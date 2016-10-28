@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>走秀网</title>
 		<link rel="stylesheet" type="text/css" href="reset.css"/>
+		<link rel="stylesheet" type="text/css" href="swiper.min.css"/>
 		<script src="libs/angular.js" type="text/javascript" charset="utf-8"></script>
 		<script src="libs/angular-route.js" type="text/javascript" charset="utf-8"></script>
 		<script src="libs/angular-css.js" type="text/javascript" charset="utf-8"></script>
@@ -18,14 +19,46 @@
 				bottom: 0;
 				left: 0;
 				width: 100%;
-				height: 3rem;
-				background-color: #eeeeee;
+				height: 4rem;
+				background-color:white ;
 			}
 			.indexNav ul li{
 				float: left;
 				width: 20%;
 				text-align: center;
-				line-height: 3rem;
+				line-height: 6rem;
+			}
+			.indexNav ul li a{
+				color: #8E9590;
+	   			font-size: .9rem;				
+			}
+			.indexNav ul li:first-child{
+				background: url(imgs/home-2.png) no-repeat;
+				background-size: 2rem;
+				background-position:1.35rem .8rem;
+			}
+			.indexNav ul li:first-child a{
+				color: black;
+			}
+			.indexNav ul li:nth-child(2){
+				background: url(imgs/find.png) no-repeat;
+				background-size: 2rem;
+				background-position:1.35rem .8rem;
+			}
+			.indexNav ul li:nth-child(3){
+				background: url(imgs/classify.png) no-repeat;
+				background-size: 2rem;
+				background-position:1.35rem .8rem;
+			}
+			.indexNav ul li:nth-child(4){
+				background: url(imgs/shower.png) no-repeat;
+				background-size: 2rem;
+				background-position:1.35rem .8rem;
+			}
+			.indexNav ul li:last-child{
+				background: url(imgs/mine.png) no-repeat;
+				background-size: 2rem;
+				background-position:1.35rem .7rem;
 			}
 		</style>
 		
@@ -46,8 +79,18 @@
 	</body>
 	<script src="route.js" type="text/javascript" charset="utf-8"></script>
 	<script src="classify/js/classify.js" type="text/javascript" charset="utf-8"></script>
+	<script src="classify/js/classify_zhenzhi.js" type="text/javascript" charset="utf-8"></script>
 	<script src="home/js/home.js" type="text/javascript" charset="utf-8"></script>
 	<script src="mine/js/mine.js" type="text/javascript" charset="utf-8"></script>
 	<script src="find/js/find.js" type="text/javascript" charset="utf-8"></script>
 	<script src="bag/js/bag.js" type="text/javascript" charset="utf-8"></script>
+	<script src="home/js/home_girl.js" type="text/javascript" charset="utf-8"></script>
+	<script src="home/js/home_search.js" type="text/javascript" charset="utf-8"></script>
+	<script src="home/js/goods.js" type="text/javascript" charset="utf-8"></script>
+	<script src="swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="mine/js/personal.js"></script>
+	<script type="text/javascript" src="mine/js/set.js"></script>
+	<script type="text/javascript" src="mine/js/collect.js"></script>
+	<script type="text/javascript" src="mine/js/info.js"></script>
+	<script type="text/javascript" src="home/js/hinfo.js"></script>
 </html>

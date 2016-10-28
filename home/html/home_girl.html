@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>女装</title>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body ng-app="myApp">
+		<header>
+			<div class="homeTop">
+				<span><a href=""><img src="home/imgs/saoyisao.png"/></a></span>
+				<a href="#/home_search"><input type="text" placeholder="搜索卖场/品牌/分类/商品"/></a>
+				<span><a href=""><img src="home/imgs/email.png"/></a></span>
+			</div>
+			<div class="homeBottom">
+				<ul class="wrap">
+					<li><a href="#/">首页</a></li>
+					<li class="aaaa"><a href="#/home_girl">女装</a></li>
+					<li><a href="#/">男装</a></li>
+					<li><a href="#/">包袋</a></li>
+					<li><a href="#/">女鞋</a></li>
+					<li><a href="#/">男鞋</a></li>
+					<li><img src="home/imgs/down.png"/></li>
+				</ul>
+			</div>
+		</header>
+		<div class="container">
+			<div class="banner">
+				<div class="swiper-container">
+			        <div class="swiper-wrapper">
+						<div class='swiper-slide'><img src="home/imgs/girl1.jpg"/></div>
+						<div class='swiper-slide'><img src="home/imgs/girl2.jpg"/></div>
+						<div class='swiper-slide'><img src="home/imgs/girl3.jpg"/></div>
+			        </div>		       
+			        <div class="swiper-pagination"></div>
+			     </div>
+			</div>
+			<div class="main">
+				<div class="mainTop">
+					<div class="left">
+						<p>本周热销排行榜</p>
+					</div>
+					<div class="right">
+						<p>New ! 新品推荐</p>
+					</div>
+				</div>
+				<div class="mainMid">
+					<p>热卖小类</p>
+					<ul>
+						<li><a href=""><img src="home/imgs/xiaotu1.jpg"/></a></li>
+						<li><a href=""><img src="home/imgs/xiaotu2.jpg"/></a></li>
+						<li><a href=""><img src="home/imgs/xiaotu3.jpg"/></a></li>
+						<li><a href=""><img src="home/imgs/xiaotu4.jpg"/></a></li>
+						<li><a href=""><img src="home/imgs/xiaotu5.jpg"/></a></li>
+						<li><a href=""><img src="home/imgs/xiaotu6.jpg"/></a></li>
+						<li><a href=""><img src="home/imgs/xiaotu7.jpg"/></a></li>
+						<li><a href=""><img src="home/imgs/xiaotu8.jpg"/></a></li>
+					</ul>
+				</div>
+				<div class="mainBtt">
+					<p>精选活动</p>
+					<div class="topp">
+						<div>
+							<p><span></span></p>
+							<p>Mr & Mrs Italy</p>
+							<p>潮爆有 "内涵" 冬季的时尚圣品</p>
+							<p><span></span><a href="">进入专场</a><span></span></p>
+						</div>
+					</div>
+					<div class="bott">
+						<ul>
+							<li ng-init="data" ng-repeat="(key, value) in data">
+								<a href="">
+									<img ng-src="{{ value.img }}"/>
+									<p>{{value.name}}</p>
+									<p><span>¥2{{ value.price }}</span><span>¥{{ value.oldPrice }}</span></p>
+								</a>
+							</li>
+							<!--<li>
+								<a href="">
+									<img src="home/imgs/jingxuan3.jpg"/>
+									<p>女士圆领大衣</p>
+									<p><span>¥2270</span><span>¥3200</span></p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="home/imgs/jingxuan4.jpg"/>
+									<p>女士大衣</p>
+									<p><span>¥2270</span><span>¥3200</span></p>
+								</a>
+							</li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

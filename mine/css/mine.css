@@ -1,3 +1,168 @@
-body{
-	color: yellow;
+/*对页脚AngularJS框架index的页脚进行样式重设置*/
+.indexNav ul li:first-child{
+	background: url(../../imgs/home.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:first-child a{
+	color: #8E9590;
+}
+.indexNav ul li:nth-child(5){
+	background: url(../../imgs/mine-2.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:nth-child(5) a{
+	color: black;
+}
+
+div.mine{
+	margin: 0;
+	padding: 0;
+	color: #848A8D;
+}
+div.mine header{
+	padding: .5rem ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #CBCBCD;
+}
+div.mine header span{
+	font-size: 0;
+	text-align: center;
+}
+div.mine header span img{
+	width: 2.5rem;
+}
+div.mine header span:nth-child(2){
+	flex-grow: 1;
+	font-size: 1.5rem;
+}
+div.mine div.info{
+	background: #fff;
+	display: flex;
+	padding: 1rem 0 1rem 1rem;
+}
+div.mine div.info section:nth-child(1) img{
+	width: 6rem;
+}
+div.mine div.info section:nth-child(2){
+	flex-grow: 1;
+	text-indent: 1rem;
+}
+div.mine div.info section:nth-child(2) h3{
+	line-height: 3rem;
+	color: #383636;
+	font-weight: 500;
+}
+div.mine div.info section:nth-child(2) p{
+	line-height: rem;
+	display: inline-block;
+	border:1px solid #B7B7B7;
+	text-indent:0 ;
+	margin-left: 1rem;
+	padding: 0 .3rem;
+	font-size: .8rem;
+}
+div.mine div.info section:nth-child(3){
+	
+}
+div.mine div.info section:nth-child(3) img{
+	width: 1.2rem;
+	margin-top: 3.2rem;
+	margin-right: .3rem;
+}
+div.mine div.order{
+	font-size: 1.1rem;
+}
+div.mine div.order div.order-top{
+	margin-top: 1rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+	padding-right: 0;
+}
+div.mine div.order div.order-top span:nth-child(2){
+	flex-grow: 1;
+	text-align: right;
+}
+div.mine div.order div.order-top span:nth-child(3) img{
+	width: 1.2rem;
+	margin-right: .5rem;
+	margin-top: .2rem;
+}
+div.mine div.order div.order-menu{
+	margin-top: 2px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	color: #333333;
+}
+div.mine div.order div.order-menu section{
+	flex-grow: 1;
+	text-align: center;
+	font-size: .8rem;
+}
+div.mine div.order div.order-menu section:nth-child(even){
+	border-left: 1px solid #F3F3F3;
+	border-right: 1px solid #F3F3F3;
+}
+div.mine div.order div.order-menu section img{
+	width: 40%;
+}
+div.mine banner{
+	margin-top: 1rem;
+	background: #fff;
+	display: flex;
+	padding: 1rem 2rem;
+	padding-right: .6rem;
+}
+div.mine banner section{
+	flex-grow: 1;
+}
+div.mine banner section:nth-child(1){
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #F3F3F3;
+}
+div.mine banner section:nth-child(1) img{
+	width: 2.3rem;
+	margin-right: .5rem;
+}
+div.mine banner section:nth-child(1) p{
+	font-size: 1.3rem;
+}
+div.mine banner section:nth-child(2){
+	background: url(../imgs/bg.png) no-repeat right center;
+	background-size: 3.5rem;
+	padding-left: 2rem;
+}
+div.mine banner section:nth-child(2) p{
+	font-size: .8rem;
+	color: #848A8D;
+}
+div.mine nav{
+	margin-top: 1rem;
+	display: flex;
+	background-color: #fff;
+	flex-flow: row wrap; 
+	align-items: center;
+}
+div.mine nav section{
+	width: 25%;
+	text-align: center;
+	/*padding: 1rem;*/
+	box-sizing: border-box;
+	padding: 1rem 0;
+	border:1px solid #F7F7F9;
+}
+div.mine nav section img{
+	width: 35%;
+}
+div.mine nav section p{
+	line-height: 3rem;
 }

@@ -5,6 +5,54 @@
 		<title></title>
 	</head>
 	<body>
-		<p>我是购物袋</p>
+		<header>
+			<div><span>购物袋</span><p>编辑</p></div>
+		</header>
+		<main>
+			<ul>
+				<li>
+					<section>
+						<img src="bag/imgs/trueBtn.png" alt="" />
+					</section>
+					<section>
+						<img src="bag/imgs/goods-1.png" alt="" />
+					</section>
+					<section>
+						<p class="englishN">Marcelo Burlon</p>
+						<p class="goodsname">男士纯棉个性图案卫衣</p>
+						<p class="guiGe"><span>颜色:黑色  </span><span> 尺码：S</span></p>
+						<p class="price">购买价￥1480</p>
+						<p class="num">
+							<span class="addbtn" ng-click="reduce()">-</span>
+							<span class="count">{{ count }}</span>
+							<span class="reduceBtn" ng-click="add()">+</span></p>
+					</section>
+				</li>
+				<li>
+					<section>
+						<img src="bag/imgs/trueBtn.png" alt="" />
+					</section>
+					<section>
+						<img src="bag/imgs/goods-1.png" alt="" />
+					</section>
+					<section>
+						<p class="englishN">Marcelo Burlon</p>
+						<p class="goodsname">男士纯棉个性图案卫衣</p>
+						<p class="guiGe"><span>颜色:黑色  </span><span> 尺码：S</span></p>
+						<p class="price">购买价￥1480</p>
+						<p class="num">
+							<span class="addbtn" ng-click="reduce2()">-</span>
+							<span class="count">{{ count2 }}</span>
+							<span class="reduceBtn" ng-click="add2()">+</span></p>
+					</section>
+				</li>
+			</ul>
+			<section class="calP">
+				<span><img src="bag/imgs/trueBtn.png" alt="" /></span>
+				<span>全选</span>
+				<span>应付总额<c>￥ {{ 1480 * (count + count2)}}</c></span>
+				<span>去结算({{ count + count2 }})</span>
+			</section>
+		</main>
 	</body>
 </html>

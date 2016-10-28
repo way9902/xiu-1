@@ -1,0 +1,101 @@
+/*对页脚AngularJS框架index的页脚进行样式重设置*/
+.indexNav ul li:first-child{
+	background: url(../../imgs/home.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:first-child a{
+	color: #8E9590;
+}
+.indexNav ul li:nth-child(5){
+	background: url(../../imgs/mine-2.png) no-repeat;
+	background-size: 2rem;
+	background-position:1.35rem .8rem;
+}
+.indexNav ul li:nth-child(5) a{
+	color: black;
+}
+header{
+	padding: .5rem;
+	border-bottom: 1px solid #D5D5D8;
+	background: #ccc;
+}
+header h2{
+	font-size: 1.5rem;
+	text-align: center;
+}
+header h2 img{
+	width: 2rem;
+	float: left;
+}
+
+main.info{
+	margin-top: .8rem;
+}
+main.info ul.shower{
+	
+}
+main.info ul.shower li{
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 1rem;
+	padding-right: .5rem;
+	margin-bottom: 2px;
+}
+main.info ul.shower li:nth-child(1) span:nth-child(2) img{
+	width: 3rem;
+}
+main.info ul.shower li span:nth-child(2){
+	flex-grow: 1;
+	text-align: right;
+}
+main.info ul.shower li span:nth-child(3) img{
+	width: 1.5rem;
+}
+main.info ul.shower li.downBtn{
+	display: block;
+	text-align: center;
+	position: relative;
+	height: 1.8rem;
+}
+main.info ul.shower li.downBtn p{
+	display: inline-block;
+	position: absolute;
+	top: 1rem;
+	left: 42%;
+}
+main.info ul.shower li.downBtn img{
+	position: absolute;
+	top: .6rem;
+	left: 52%;
+}
+main.info ul.yincang li{
+	display: flex;
+	justify-content: space-around;
+}
+main.info ul.shower ul.yincang li span:nth-child(2) img{
+	width: 1.5rem;
+	text-align: right;
+}
+div.otherInfo{
+	margin-top: 1rem;
+}
+div.otherInfo ul li{
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	padding: 1rem;
+	padding-right: .5rem;
+	margin-bottom: 2px;
+}
+div.otherInfo ul li span{
+	flex-grow: 1;
+}
+div.otherInfo ul li span:nth-child(2){
+	
+	text-align: right;
+}
+div.otherInfo ul li span:nth-child(2) img{
+	width: 1.5rem;
+}
